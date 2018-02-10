@@ -1,0 +1,5 @@
+<?php
+
+rand();
+
+srand();

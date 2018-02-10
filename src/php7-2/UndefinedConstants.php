@@ -1,0 +1,3 @@
+<?php
+
+echo UNDEFINED_CONSTANT;

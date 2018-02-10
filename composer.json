@@ -1,0 +1,12 @@
+{
+    "name": "mniebergall/php7compatibility",
+    "require-dev": {
+        "sstalle/php7cc": "^1.2",
+        "wimg/php-compatibility": "^8.1",
+        "squizlabs/php_codesniffer": "^3.2"
+    },
+    "scripts": {
+        "post-install-cmd": "\"vendor/bin/phpcs\" --config-set installed_paths vendor/wimg/php-compatibility",
+        "post-update-cmd" : "\"vendor/bin/phpcs\" --config-set installed_paths vendor/wimg/php-compatibility"
+    }
+}
